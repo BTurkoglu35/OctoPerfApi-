@@ -25,8 +25,8 @@ public class workspacestepdefinitions  {
 
     }
 
-    @And("User HTTP Status Code should be ikiyuz")
-    public void userHTTPStatusCodeShouldBeIkiyuz() {
+    @And("User HTTP Status Code should be twohundred")
+    public void userHTTPStatusCodeShouldBetwohundred() {
 
         Assert.assertEquals(200,response.getStatusCode());
     }
