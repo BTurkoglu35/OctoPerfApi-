@@ -14,13 +14,7 @@ public class Authentication {
 
 
     public static String generateToken() {
-        String username ="forjmeter@outlook.com";
-        String password ="abcdmr";
 
-        Map<String, Object> map = new HashMap<>();
-        map.put("username", username);
-        map.put("password",password);
-        map.put("rememberme","true");
 
         String endPoint = "https://api.octoperf.com/public/users/login?username=forjmeter@outlook.com&password=abcdmr";
 

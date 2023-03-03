@@ -6,3 +6,4 @@ Feature:List workspace whose logged user is a member
     Given  User sends a GET Request to the url
     And  User HTTP Status Code should be twohundred
     And User  response verified
+
